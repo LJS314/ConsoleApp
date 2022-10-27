@@ -17,6 +17,12 @@ namespace ConsoleApp
             Name = name;
             GoodsAmount = 0;
         }
+        /// <summary>
+        /// 玩家拿取物品
+        /// </summary>
+        /// <param name="goods"></param>
+        /// <param name="amount"></param>
+        /// <returns></returns>
         public Tuple<bool, string> TakeGoods(Goods goods, int amount)
         {
             var tuple = goods.Take(amount);

@@ -16,6 +16,11 @@ namespace ConsoleApp
             goods.Add(2, 5);
             goods.Add(3, 7);
         }
+        /// <summary>
+        /// 拿取物品
+        /// </summary>
+        /// <param name="i"></param>
+        /// <returns></returns>
         public Tuple<bool, string> Take(int i)
         {
             var keys = goods.Keys.ToList();

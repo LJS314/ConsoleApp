@@ -41,4 +41,5 @@ while (true)
 
     foreach (var item in goods.goods)
         Console.WriteLine(string.Format("第{0}行：{1}", item.Key, item.Value));
+
 }
